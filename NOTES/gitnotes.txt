@@ -76,5 +76,20 @@ git clone https://github.com/user_name/repo_name.git .
 2. I use the git add . and committed changes.
 3. I pushed the local repo to my github newly created repo using the (git remote add origin "new_github_repo_name") and pushed using (git push -u origin main)
 
+//Github Collaboration
+1. It's advisable to create a new repository for your project and set it to private, and create a new dummy file inside in the repo.
+2. Under the newly committed repository, go to settings and under user access, invite a collaborator
+3. The collaborator now will accept your invite to collaborate
+4. Clone the repository on his computer
+5. Make changes and push to the repo
+6. Use the (git pull) to see any updated changes in the repo
+
+//Github Contributor (Open Source Projects)
+1. Use the fork option to fork the copy of the original repo to yours.
+2. After forking, you should be able to clone the forked repo, update changes and push your updates to it.
+3. Use the pull request option to inform the original owner of your changes.
+4. You can either "merge pull request" to accept the changes or "close pull request" to ignore the changes.
+
+
 
 
