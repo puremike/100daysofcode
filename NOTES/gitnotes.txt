@@ -71,3 +71,10 @@ Search Credentials Manager on windows, remove the current profile and proceed to
 git clone https://github.com/user_name/repo_name.git .
 
 
+//I have successfully cloned an already existing github repo to my newly created github repo. I followed the following steps:
+1. I cloned the already existing repo to a new folder on my desktop and use the ()git clone "URL" .) to clone the repo
+2. I use the git add . and committed changes.
+3. I pushed the local repo to my github newly created repo using the (git remote add origin "new_github_repo_name") and pushed using (git push -u origin main)
+
+
+
