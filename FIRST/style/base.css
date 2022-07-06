@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    background-color:FFE7BF; 
+    margin: 3em 5em;
+}
+
+img {
+    /* display: block;  */
+    /* margin: 1rem auto 3rem auto;  */
+    /* border-radius: 100px; */
+    width: 20%;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    margin: 0;
+}
+
+p {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 15px; 
+    color:red;
+}
+
+.ptest1 {
+    font-size: 40px;
+}
+
+a {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 15px;    
+    text-decoration: none;
+    border: 12px solid #F94C66;
+    border-radius: 3px;
+    background-color: #F94C66;
+    color: white;
+    display: inline-block;
+}
+
+a:hover {
+    font-weight: bold;
+    /* color: rgb(197, 119, 23); */
+    opacity: 70%;
+}
+

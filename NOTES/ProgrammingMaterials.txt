@@ -1,0 +1,15 @@
+https://github.com/30-seconds/30-seconds-of-code.git
+
+https://github.com/charlax/professional-programming.git
+
+https://github.com/practical-tutorials/project-based-learning.git
+
+https://github.com/mtdvio/every-programmer-should-know.git
+
+https://github.com/kamranahmedse/developer-roadmap.git
+
+
+
+Data Structures Visualization: https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
+
+Try out some algorithms on Project Euler: https://projecteuler.net/

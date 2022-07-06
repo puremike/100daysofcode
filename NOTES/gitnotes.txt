@@ -1,0 +1,65 @@
+//Initialize a git
+git init
+
+//Add a file to the git and commit changes
+git add test.txt
+git commit -m "Created a text.txt file"
+
+//Created another file in your workspace and added more information in the test.txt file
+//the test.txt file would have been tracked and committed., and the secondcommit.txt file would also have been tracked and commited
+git add .
+git commit -m "Added more information to the test.txt file and created a new secondcommit.txt file"
+
+//Check your status with 
+git status / git log
+
+// to check your global information
+git config --global --edit // this will show your username and email address
+
+//to edit your email and username
+git config --global user.name "Michael Egbinola"
+
+//to edit your email
+git config --global user.email "tunv33@gmail.com"
+
+//to exit a command
+Ctrl + C and type :qa!
+
+//listing our branch
+git branch
+
+//renaming our branch
+git branch -m main
+
+//creating and switching to a new branch
+git checkout -b feature
+
+
+//To merge branches, you must firstly, switch to the main branch and merge the other branch (i.e feature) to it
+
+//Switching to your main branch
+git checkout main
+git merge feature
+
+
+//to delete a file and commit your changes
+git rm filename
+git add .
+git commit -m "deleted filename"
+
+
+//to reset a git function (go back to a previous commit)
+git reset --hard HEAD~1 (using 1 will go back to the previous commit change and 2 will go back 2x the previous commit change)
+
+//to delete a branch
+git branch -D branchname
+
+//to reset unstaged changes
+git checkout -- . or (git checkout -- filename)
+
+
+//push your git to github
+git remote add origin https://github.com/puremike/.........
+git push -u origin main
+
+

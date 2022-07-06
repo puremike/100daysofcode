@@ -1,0 +1,24 @@
+SELECTORS
+Type	elementname
+ID	#id
+Group	elementname, elementname (i.e h1, h2 {} / a, p {})
+Class	.class
+
+COMBINATORS
+Descendant 	li p / main p	-	All p with li/main as ancestor
+Child		h2 > p 	-		Only p with are direct children of h2
+	
+
+INLINE VS BLOCK LEVEL DISPLAY
+
+Display:block; - A Block-level element occupies the entire horizontal space of its parent element (container), and vertical space equal to the height of its contents, thereby creating a "block".
+
+Display:inline; - Inline elements are those which only occupy the space bounded by the tags defining the element, instead of breaking the flow of the content. AN INLINE ELEMENT does not start on a new line and only takes up as much width as necessary.
+	
+By default, block-level elements begin on new lines, but inline elements can start anywhere in a line.
+
+More on Display (Block and Inline): 
+https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements
+https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements
+
+Note: Margin collapsing only affect the block element. AS we know, Vertical Margins can't be applied to inline elements.
