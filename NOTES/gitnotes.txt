@@ -52,7 +52,7 @@ git commit -m "deleted filename"
 git reset --hard HEAD~1 (using 1 will go back to the previous commit change and 2 will go back 2x the previous commit change)
 
 //to delete a branch
-git branch -D branchname
+git branch -D branch_name
 
 //to reset unstaged changes
 git checkout -- . or (git checkout -- filename)
@@ -61,5 +61,13 @@ git checkout -- . or (git checkout -- filename)
 //push your git to github
 git remote add origin https://github.com/puremike/.........
 git push -u origin main
+
+
+//change the credentials in git (Reset a PAToken)
+Search Credentials Manager on windows, remove the current profile and proceed to git clone on your vscode (git)
+
+
+//How to bring another repo content to our local repo
+git clone https://github.com/user_name/repo_name.git .
 
 
