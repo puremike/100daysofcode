@@ -22,3 +22,19 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements
 https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements
 
 Note: Margin collapsing only affect the block element. AS we know, Vertical Margins can't be applied to inline elements.
+
+
+
+1. position: relative, absolute, fixed,, static // relative will adjust to the previous element; absolute will allow an element position to be changed; fixed will keep an element even while scrolling.
+
+2. Display: flex; flex will align elements next to each other | flex-wrap: wrap/no-wrap; will wrap or unwrap flex items | align-items: center; will centralize flex items | justify-contents: space-between; will bring any available spaces of the flex items between them.
+
+3. box-sizing: border-box; will enable an element to main a specific width.'
+
+4. box-shadow: 1px 1px 2px rgba(0,0,0,opacity); will create a shadow effect around that box or element
+
+5. text-shadow: 1px 1px 2px rgba(0,0,0,opacity0; will create a shadow effect around a text element
+
+6. background-size: cover; will use the entire width of the page | background-position: center; will centralize the image.
+
+7. Object-fit: cover; which is used to keep image aspect ratio while following other styling properties.
