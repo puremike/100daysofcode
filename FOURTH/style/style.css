@@ -3,11 +3,13 @@
   background-image: url("/FOURTH/image/places/ocean.jpg");
   background-size: cover;
   background-position: center;
+  box-sizing: border-box;
 }
 
 #hero div {
   width: 900px;
   background-color: rgba(51, 47, 47, 0.8);
+  box-shadow: 1px 1px 2px rgb(77, 76, 76);
   border-radius: 8px;
   text-align: center;
   margin: auto;
@@ -25,12 +27,11 @@
 }
 
 #hero p {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgb(255, 255, 255);
   text-transform: uppercase;
   margin-bottom: 30px;
-  font-size: 20px;
-  font-family: "Raleway", sans-serif;
-  font-weight: 100;
+  font-size: 18px;
+  font-weight: lighter;
 }
 
 #hero a {
@@ -43,4 +44,41 @@
 
 #hero a:hover {
   background-color: rgb(251, 230, 0);
+}
+
+#highlight {
+  background: linear-gradient(0deg, rgb(227, 255, 253), rgb(202, 243, 240));
+  color: rgb(59, 65, 64);
+  font-size: 40px;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+}
+
+#image-highlight {
+  display: flex;
+  justify-content: center;
+  /* object-fit: cover; */
+}
+
+.destination {
+  margin: 0 15px 0 15px;
+}
+
+.destination img {
+  height: 200px;
+  width: 270px;
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+
+#highlight p {
+  color: rgb(124, 123, 123);
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+#highlight strong {
+  color: rgb(0, 160, 117);
 }

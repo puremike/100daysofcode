@@ -28,6 +28,7 @@ destination-strong-color: rgb(0, 160, 117);
 body {
   font-family: "Quicksand", sans-serif;
   margin: 0;
+  padding: 0;
 }
 
 header {
@@ -65,51 +66,4 @@ header nav a:hover {
   color: rgb(77, 77, 77);
   padding: 10px;
   border-radius: 7px;
-}
-
-#hero {
-  height: 900px;
-  background-image: url("/FOURTH/image/places/ocean.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
-#hero div {
-  width: 900px;
-  background-color: rgba(51, 47, 47, 0.8);
-  border-radius: 8px;
-  text-align: center;
-  margin: auto;
-  padding: 50px 0;
-  position: relative;
-  top: 300px;
-}
-
-#hero h1 {
-  font-family: "Raleway", sans-serif;
-  font-size: 50px;
-  color: white;
-  text-transform: uppercase;
-  margin: 0;
-}
-
-#hero p {
-  color: rgba(255, 255, 255, 0.8);
-  text-transform: uppercase;
-  margin-bottom: 30px;
-  font-size: 20px;
-  font-family: "Raleway", sans-serif;
-  font-weight: 100;
-}
-
-#hero a {
-  text-decoration: none;
-  background-color: rgb(251, 251, 0);
-  padding: 15px;
-  border-radius: 8px;
-  font-weight: bolder;
-}
-
-#hero a:hover {
-  background-color: rgb(251, 230, 0);
 }
