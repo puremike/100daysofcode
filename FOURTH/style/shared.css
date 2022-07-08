@@ -1,0 +1,26 @@
+/* 
+BODY 
+font-family: "Quicksand", sans-serif;
+
+HEADER SECTION
+header a: rgb(245, 243, 160);
+text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+
+header div a: "Oleo Script", cursive
+header nav a:hover color: rgb(77, 77, 77);
+    background-color: rgb(255, 251, 0);v
+
+HERO DIV
+rgba(51, 47, 47, 0.8) //hero-content bg
+box-shadow: 2px 4px 8px rgb(68, 67, 67) 
+hero h1
+  font-family: "Raleway", sans-serif;
+rgb(251,251,0) // button
+
+HIGHLIGHT SECTION
+background: linear-gradient(0deg, rgb(227, 255, 253), rgb(202, 243, 240);
+hightlight color: rgb(59,65,64);
+destination box-shadow: 2px 4px 8px rgb(68,67,67);
+destination-text color: rgb(124,123,123);
+destination-strong-color: rgb(0, 160, 117);
+*/
