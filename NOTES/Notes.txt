@@ -40,4 +40,12 @@ Note: Margin collapsing only affect the block element. AS we know, Vertical Marg
 7. Object-fit: cover; which is used to keep image aspect ratio while following other styling properties.
 
 //Creating CARD in Class
-1.
+1. overflow: visible/hidden;
+
+display: grid;
+grid-template-column: 1fr 1fr;
+gap: 50px 50px;
+
+li:nth-of-type() {
+    grid-column: 1 span 2 // 1 / 3;
+}
