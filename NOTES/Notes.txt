@@ -25,7 +25,7 @@ Note: Margin collapsing only affect the block element. AS we know, Vertical Marg
 
 
 
-1. position: relative, absolute, fixed,, static // relative will adjust to the previous element; absolute will allow an element position to be changed; fixed will keep an element even while scrolling.
+1. position: relative, absolute, fixed,, static // absolute will adjust to the previous element; relative will allow an element position to be changed; fixed will keep an element even while scrolling.
 
 2. Display: flex; flex will align elements next to each other | flex-wrap: wrap/no-wrap; will wrap or unwrap flex items | align-items: center; will centralize flex items | justify-contents: space-between; will bring any available spaces of the flex items between them.
 
