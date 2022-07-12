@@ -38,3 +38,6 @@ Note: Margin collapsing only affect the block element. AS we know, Vertical Marg
 6. background-size: cover; will use the entire width of the page | background-position: center; will centralize the image.
 
 7. Object-fit: cover; which is used to keep image aspect ratio while following other styling properties.
+
+//Creating CARD in Class
+1.
