@@ -1,0 +1,94 @@
+body {
+  background-color: #5d5d5d;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.692);
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 40px;
+  margin: 0;
+  font-family: "QuickSand", sans-serif;
+  font-size: 40px;
+}
+header nav a {
+  text-decoration: none;
+  color: burlywood;
+}
+
+div a {
+  padding-right: 40px;
+  font-size: 16px;
+}
+
+div a:hover {
+  background-color: burlywood;
+  color: azure;
+  padding: 7px 14px;
+  border-radius: 3px;
+}
+
+main {
+  text-align: center;
+  margin: auto;
+}
+
+main h1 {
+  color: burlywood;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+img {
+  width: 400px;
+  height: 250px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  object-fit: cover;
+}
+
+#img-content {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 30px 10px;
+}
+
+.card-content {
+  background-color: rgb(206, 180, 146);
+  padding: 10px 20px 20px 20px;
+  color: #91211f;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+main p {
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+main a {
+  text-decoration: none;
+  font-size: 14px;
+  background-color: rgba(184, 174, 39, 0.918);
+  color: white;
+  padding: 7px 14px;
+  border-radius: 5px;
+}
+
+main a:hover {
+  background-color: rgb(145, 136, 16);
+  color: rgba(245, 242, 224, 0.918);
+}
