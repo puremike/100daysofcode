@@ -32,6 +32,13 @@ div a:hover {
   color: rgb(200, 212, 19);
 }
 
+.menu-btn {
+  width: 60px;
+  height: 50px;
+  align-items: center;
+  margin: 0 auto;
+}
+
 main {
   text-align: center;
   margin: 0;
