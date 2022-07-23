@@ -5,10 +5,19 @@ body {
 }
 
 header {
-  background-color: rgba(0, 0, 0, 0.692);
+  background-color: rgba(29, 26, 27);
 }
 
-header nav {
+a {
+  text-decoration: none;
+}
+
+#logo {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+#main-header {
   height: 6rem;
   display: flex;
   align-items: center;
@@ -16,27 +25,66 @@ header nav {
   padding: 0 5%;
   margin: 0;
   font-family: "QuickSand", sans-serif;
-  font-size: 2rem;
 }
-header nav a {
-  text-decoration: none;
+
+header a {
   color: burlywood;
 }
 
-div a {
+nav a {
   margin: 0 1rem;
   font-size: 1rem;
 }
 
-div a:hover {
+nav a:hover {
   color: rgb(200, 212, 19);
 }
 
-.menu-btn {
-  width: 60px;
+#menu-btn {
+  display: none;
+  margin: 0;
+  padding: 0;
+}
+
+#menu-btn img {
+  width: 50px;
   height: 50px;
+  background-color: rgb(29, 26, 27);
+}
+
+aside nav div {
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  margin: 0 auto;
+  margin: 120px auto 0 auto;
+}
+
+#side-drawer a {
+  color: burlywood;
+  margin: 10px 0;
+  font-size: 2rem;
+}
+
+#side-drawer {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(29, 26, 27);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+#side-drawer #design {
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 5%;
+}
+
+#side-drawer:target {
+  display: block;
 }
 
 main {
@@ -98,8 +146,8 @@ main a:hover {
   color: rgba(245, 242, 224, 0.918);
 }
 
-@media (max-width: 48rem) {
-  div a {
+@media (max-width: 48rem /*768px*/) {
+  header nav {
     /* visibility: hidden; */
     display: none;
   }
@@ -114,5 +162,9 @@ main a:hover {
 
   .card {
     margin: 0.7rem auto;
+  }
+
+  #menu-btn {
+    display: flex;
   }
 }
