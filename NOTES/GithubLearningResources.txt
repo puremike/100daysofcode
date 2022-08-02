@@ -13,5 +13,3 @@ https://github.com/kamranahmedse/developer-roadmap.git
 Data Structures Visualization: https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
 
 Try out some algorithms on Project Euler: https://projecteuler.net/
-
-Added resources in the resources.html file for popular languages, frameworks and job professions.
